@@ -1,0 +1,81 @@
+h1{
+    text-align: center;
+}
+.caja{
+    width: 610px;
+    margin: 220px auto;
+}
+
+.caja-texto{
+    float: left;
+}
+
+.caja-mensaje{
+    float: right;
+}
+
+.mensaje{
+    float: right;
+    background-image: url(imagenes/descarga.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: contain;
+}
+
+.input-texto{
+    font-size: 1.5em;
+}
+
+
+.encriptar{
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    background-color: darkblue;
+    color: white;
+    border-radius: 5px;
+    transition: 1s all;
+}
+
+.encriptar:hover{
+    background: rgb(41, 41, 132);
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.desencriptar{
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    background-color: darkblue;
+    color: white;
+    margin-left: 30px;
+    transition: 1s all;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.desencriptar:hover{
+    background: rgb(41, 41, 132);
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+.copiar{
+    width: 150px;
+    height: 50px;
+    position: relative;
+    margin-top: 25px;
+    background-color: darkblue;
+    color: white;
+    font-style: italic;
+    border-radius: 5px;
+    transition: 1s all;
+}
+
+.copiar:hover {
+    background: rgb(41, 41, 132);
+    transform: scale(1.2);
+    cursor: pointer;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div>
+            <h1><img class="logo" src="imagenes/logo.png" alt="logo"></h1>
+        </div>
+        <p class="titulo-principal">ENCRIPTAR MENSAJE</p>
+    </header>
+    <style type="text/css">
+        html { 
+          background: url(imagenes/background.jpg) no-repeat center center fixed; 
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+        }    
+    </style>
+    <main>
+        <section class="caja">
+            <div class="caja-texto">
+                <label for="mensaje">Texto a Encriptar</label>
+                <textarea id="mensaje" cols="70" rows="20"></textarea>
+            </div>
+            
+
+        </section>
+    </main>
+    
+
+</body>
+</html>
